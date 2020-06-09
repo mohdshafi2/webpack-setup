@@ -37,6 +37,15 @@ module.exports = merge(common, {
       })
     ]
   },
+  plugins: [
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: 'css/[name].min.css',
+      chunkFilename: 'css/[name].min.css',
+    }),
+    new CleanWebpackPlugin(),
+  ],
   module: {
     rules: [
       {
