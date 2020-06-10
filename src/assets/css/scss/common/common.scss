@@ -1,0 +1,10 @@
+body {
+  font-family: $font-lato;
+}
+
+h2 {
+  color: red;
+  @include media(max499) {
+    color: green;
+  }
+}

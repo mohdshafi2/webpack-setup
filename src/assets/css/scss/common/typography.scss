@@ -1,0 +1,107 @@
+@mixin media($point) {
+  @if $point == max320 {
+    @media (max-width: 319px) {
+      @content ;
+    }
+  } @else if $point == max379 {
+    @media (max-width: 379px) {
+      @content ;
+    }
+  } @else if $point == max499 {
+    @media (max-width: 499px) {
+      @content ;
+    }
+  } @else if $point == max599 {
+    @media (max-width: 599px) {
+      @content ;
+    }
+  } @else if $point == max767 {
+    @media (max-width: 767px) {
+      @content ;
+    }
+  } @else if $point == max799 {
+    @media (max-width: 799px) {
+      @content ;
+    }
+  } @else if $point == max991 {
+    @media (max-width: 991px) {
+      @content ;
+    }
+  } @else if $point == max1023 {
+    @media (max-width: 1023px) {
+      @content ;
+    }
+  } @else if $point == max1199 {
+    @media (max-width: 1199px) {
+      @content ;
+    }
+  } @else if $point == min320 {
+    @media (min-width: 320px) {
+      @content ;
+    }
+  } @else if $point == min380 {
+    @media (min-width: 380px) {
+      @content ;
+    }
+  } @else if $point == min500 {
+    @media (min-width: 500px) {
+      @content ;
+    }
+  } @else if $point == min600 {
+    @media (min-width: 600px) {
+      @content ;
+    }
+  }  @else if $point == min768 {
+    @media (min-width: 768px) {
+      @content ;
+    }
+  } @else if $point == min800 {
+    @media (min-width: 800px) {
+      @content ;
+    }
+  } @else if $point == min992 {
+    @media (min-width: 992px) {
+      @content ;
+    }
+  } @else if $point == min1024 {
+    @media (min-width: 1024px) {
+      @content ;
+    }
+  } @else if $point == min1200 {
+    @media (min-width: 1200px) {
+      @content ;
+    }
+  } @else if $point == min1280 {
+    @media (min-width: 1280px) {
+      @content ;
+    }
+  } @else if $point == min1300 {
+    @media (min-width: 1300px) {
+      @content ;
+    }
+  }  @else if $point == min1400 {
+    @media (min-width: 1400px) {
+      @content ;
+    }
+  } @else if $point == min1500 {
+    @media (min-width: 1500px) {
+      @content ;
+    }
+  } @else if $point == min1600 {
+    @media (min-width: 1600px) {
+      @content ;
+    }
+  } @else if $point == min1800 {
+    @media (min-width: 1800px) {
+      @content ;
+    }
+  } @else if $point == min2000 {
+    @media (min-width: 2000px) {
+      @content ;
+    }
+  } @else if $point == IE10-plus-hack {
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      @content ;
+    }
+  }
+}
